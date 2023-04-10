@@ -1,1 +1,1 @@
-Um priemiro projeto mais elaborado usando DOM. O código não é o melhor, mas é funcional.
+Um primeiro projeto mais elaborado usando DOM.
