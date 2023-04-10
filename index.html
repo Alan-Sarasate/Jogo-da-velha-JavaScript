@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jogoDaVelha.css">
+    <script src="jogoDaVelha.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>##JOGO DA VELHA##</h1>
+    <section id="nomes">
+        <h3>Insira os nomes dos jogadores: </h3>
+        <form id="form-nomes">
+            <label for="player1">Jogador 1:</label>
+            <input type="text"  id="player1" placeholder="Jogador1">
+            <br>
+            <label for="player2">Jogador 2:</label>
+            <input type="text"  id="player2" placeholder="Jogador2">
+            <br>
+            <button id="salvar">Salvar e iniciar</button>
+        </form>
+    </section>
+    <h4 id="jogadores"></h4>
+    <h2 id="jogadorDaVez"></h2>
+    <section id="tabuleiro">
+        <div id="q1" onclick="marcar(this)"></div>
+        <div id="q2" onclick="marcar(this)"></div> 
+        <div id="q3" onclick="marcar(this)"></div>
+        <div id="q4" onclick="marcar(this)"></div>
+        <div id="q5" onclick="marcar(this)"></div>
+        <div id="q6" onclick="marcar(this)"></div>
+        <div id="q7" onclick="marcar(this)"></div>
+        <div id="q8" onclick="marcar(this)"></div>
+        <div id="q9" onclick="marcar(this)"></div>
+    </section>
+</body>
+</html>
