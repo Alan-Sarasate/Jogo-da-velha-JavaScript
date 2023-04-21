@@ -30,6 +30,8 @@ function jogadorDaVez(){
         h2.innerText = `Jogador da vez: ${jogador2.value}`
 }
 
+
+
 function marcar(elemento){
     if(!elemento.innerText){
         elemento.innerText = jogadaAtual
@@ -52,7 +54,6 @@ function verificarVitoria(){
     const q = document.querySelectorAll("div")
     if(qJogadas >= 5){
         if(q[0].innerText && (q[0].innerText == q[1].innerText && q[1].innerText == q[2].innerText)){
-            q[0].classList.add("vitoria")
             jogadorVencedor(q[0].innerText)
         }else if(q[3].innerText && (q[3].innerText == q[4].innerText && q[4].innerText == q[5].innerText)){
             jogadorVencedor(q[3].innerText)
